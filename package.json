@@ -1,0 +1,56 @@
+{
+    "name": "automatic-waffle",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": [
+        "./waffle-web",
+        "./supaffle",
+        "packages/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/automatic-waffle/automatic-waffle.git"
+    },
+    "keywords": [],
+    "author": "Andrii Shafar <andrii.shafar@uzhnu.edu.ua>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/automatic-waffle/automatic-waffle/issues"
+    },
+    "homepage": "https://github.com/automatic-waffle/automatic-waffle#readme",
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev --parallel",
+        "lint": "turbo run lint",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1",
+        "turbo": "latest"
+    },
+    "turbo": {
+        "pipeline": {
+            "build": {
+                "dependsOn": [
+                    "^build"
+                ],
+                "outputs": [
+                    "dist/**"
+                ]
+            },
+            "lint": {
+                "outputs": []
+            },
+            "dev": {
+                "cache": false
+            }
+        }
+    },
+    "engines": {
+        "npm": ">=7.0.0",
+        "node": ">=14.0.0"
+    },
+    "dependencies": {
+        "eslint": "^8.4.1"
+    }
+}

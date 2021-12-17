@@ -1,0 +1,5 @@
+{
+    "extends": "@automatic-waffle/tsconfig/node.json",
+    "include": ["**/*.ts", "**/*.d.ts"],
+    "exclude": ["node_modules", "dist"]
+}

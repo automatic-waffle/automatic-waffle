@@ -1,0 +1,22 @@
+{
+    "name": "@automatic-waffle/supaffle",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/automatic-waffle/automatic-waffle.git"
+    },
+    "keywords": [],
+    "author": "Andrii Shafar <andrii.shafar@uzhnu.edu.ua>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/automatic-waffle/automatic-waffle/issues"
+    },
+    "homepage": "https://github.com/automatic-waffle/automatic-waffle#readme",
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {
+        "@automatic-waffle/eslint-config": "workspace:*",
+        "@automatic-waffle/tsconfig": "workspace:*",
+        "typescript": "^4.4.4"
+    }
+}

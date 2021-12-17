@@ -1,0 +1,28 @@
+{
+    "name": "@automatic-waffle/eslint-config",
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/automatic-waffle/automatic-waffle.git"
+    },
+    "keywords": [],
+    "author": "Andrii Shafar <andrii.shafar@uzhnu.edu.ua>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/automatic-waffle/automatic-waffle/issues"
+    },
+    "homepage": "https://github.com/automatic-waffle/automatic-waffle#readme",
+    "files": [
+        "web-vue3-preset.js",
+        "node-preset.js"
+    ],
+    "dependencies": {
+        "@babel/core": "^7.16.5",
+        "@babel/eslint-parser": "^7.16.5",
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-vue": "^8.2.0"
+    }
+}

@@ -1,0 +1,4 @@
+packages:
+    - "./waffle-web"
+    - "./supaffle"
+    - "packages/**"

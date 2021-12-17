@@ -1,0 +1,25 @@
+{
+    "name": "@automatic-waffle/tsconfig",
+    "version": "0.0.0",
+    "private": true,
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/automatic-waffle/automatic-waffle.git"
+    },
+    "keywords": [],
+    "author": "Andrii Shafar <andrii.shafar@uzhnu.edu.ua>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/automatic-waffle/automatic-waffle/issues"
+    },
+    "homepage": "https://github.com/automatic-waffle/automatic-waffle#readme",
+    "files": [
+        "base.json",
+        "vue3.json"
+    ],
+    "dependencies": {
+        "@types/jest": "^27.0.3",
+        "@types/node": "^17.0.0"
+    }
+}
