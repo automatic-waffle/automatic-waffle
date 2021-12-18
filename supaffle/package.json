@@ -12,11 +12,16 @@
         "url": "https://github.com/automatic-waffle/automatic-waffle/issues"
     },
     "homepage": "https://github.com/automatic-waffle/automatic-waffle#readme",
-    "scripts": {},
-    "dependencies": {},
+    "scripts": {
+        "build": "tsc",
+        "dev": "ts-node-dev --respawn ./index.ts",
+        "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    },
     "devDependencies": {
         "@automatic-waffle/eslint-config": "workspace:*",
         "@automatic-waffle/tsconfig": "workspace:*",
+        "@types/node": "^17.0.0",
+        "ts-node-dev": "^1.1.8",
         "typescript": "^4.4.4"
     }
 }

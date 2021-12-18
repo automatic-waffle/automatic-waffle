@@ -11,7 +11,7 @@
         "sourceMap": true,
         "types": ["node", "jest"],
         "lib": ["es2020", "dom"],
-        "module": "ESNext",
+        "module": "CommonJS",
         "moduleResolution": "node",
         "target": "ES2020",
         "esModuleInterop": true
